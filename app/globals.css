@@ -349,8 +349,13 @@ footer{background:#070F1E;border-top:1px solid rgba(255,255,255,.06);padding:60p
 .footer-copy{font-family:var(--font-body);font-size:.8rem;color:rgba(255,255,255,.2)}
 
 @media(max-width:900px){
-  .hero-grid,.reach-grid,.about-grid,.contact-grid{grid-template-columns:1fr!important}
-  .hero-grid>div:last-child{display:none!important}
+  .hero-grid,.reach-grid,.about-grid,.contact-grid{grid-template-columns:1fr!important;gap:40px!important}
+  
+  /* Navbar Mobile Tweak */
+  .nav-link{display:none!important}
+  .nav-links{gap:16px!important}
+  
+  /* Process */
   .process-header{grid-template-columns:1fr!important;gap:20px!important}
   .steps-grid{grid-template-columns:1fr 1fr!important}
   .connector{display:none!important}
