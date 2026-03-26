@@ -115,20 +115,6 @@ export default function Hero() {
                 Our Services
               </Link>
             </div>
-            <div className="hero-stats">
-              <div>
-                <div className="hero-stat-val">30+</div>
-                <div className="hero-stat-label">Years Combined Experience</div>
-              </div>
-              <div>
-                <div className="hero-stat-val">50+</div>
-                <div className="hero-stat-label">C-Suite Positions Closed</div>
-              </div>
-              <div>
-                <div className="hero-stat-val">12+</div>
-                <div className="hero-stat-label">Countries Served</div>
-              </div>
-            </div>
           </div>
 
           {/* Right Card */}
